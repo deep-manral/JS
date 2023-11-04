@@ -36,12 +36,40 @@ const users=[
     }
 ]
 users[1].email;
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));//is isLoggedin property found or not
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));//is isLoggedin property found or not
 
 
+const course={
+coursename:"js in hindi",
+    price:"999",
+courseInstructer:"deepak"}
+//course.courseInstructer 
 
+const {courseInstructor:instructor}=course//object destructure
+// console.log(courseInstructor);
+console.log(instructor);
+// const navbar=({company})=>{    //object destructering
+
+// }
+// navbar(company ="hitesh")
+
+///       APIS
+// {
+//   " name":"hitesh",            //sometimes apis are shown as form of string and sometimes in the format of arrays
+//   " coursename":"js in hindi" ,
+//    "price":"free",
+
+
+// }
+//array format
+// {
+//     {}
+//     {}
+//     {}
+
+// }
 
