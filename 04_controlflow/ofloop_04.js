@@ -7,5 +7,5 @@ const myObject={
 }
 //we use for in loop in object
 for(const key in myObject){
-    console.log(key);
+    console.log(myObject[key]);
 }
